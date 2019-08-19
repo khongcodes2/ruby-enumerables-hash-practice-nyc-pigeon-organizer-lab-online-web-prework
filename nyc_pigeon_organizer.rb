@@ -17,10 +17,10 @@ def nyc_pigeon_organizer(data)
     finalhash.each do |name,hash|
       hash[attribute]=[]
       
-      attr_hash.each do |detail_key,name_array|
-        if name_array.include?(name)
-          finalhash[name]=detail_key.to_s
-        end
+      #attr_hash.each do |detail_key,name_array|
+      #  if name_array.include?(name)
+      #    finalhash[name]=detail_key.to_s
+      #  end
       end
     end
     
