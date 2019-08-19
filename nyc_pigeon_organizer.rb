@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
   finalhash={}
   names.uniq.each do |name|
     binding.pry
-    finalhash[name.intern]={}
+    finalhash[name]={}
   end
   
   
