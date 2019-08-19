@@ -1,3 +1,5 @@
+require 'pry'
+
 def nyc_pigeon_organizer(data)
   names=[]
   data.each do |attribute, attr_hash|
@@ -10,7 +12,7 @@ def nyc_pigeon_organizer(data)
   names.uniq.each do |name|
     finalhash[name.to_sym]={}
   end
-  
+  binding.pry
   
   
   finalhash
