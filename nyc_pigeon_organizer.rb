@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
       
       attr_hash.each do |detail_key,name_array|
         if name_array.include?(name)
-          #finalhash[name]=detail_key.to_s
+          finalhash[name][attribute].push(detail_key.to_s)
         end
       end
     end
