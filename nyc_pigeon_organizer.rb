@@ -6,7 +6,8 @@ def nyc_pigeon_organizer(data)
     end
   end
   
+  finalhash={}
   names.uniq.each do |name|
-    
+    finalhash
   end
 end
