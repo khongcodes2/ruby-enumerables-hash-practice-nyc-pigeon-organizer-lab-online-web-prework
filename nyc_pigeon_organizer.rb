@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   names=[]
   data.each do |attribute, attr_hash|
     attr_hash.each do |detail_key,name_array|
-      names.concat(name_array.values)
+      name_array.each {|name| names.push(name)}
     end
   end
   
