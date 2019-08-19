@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
       #  if name_array.include?(name)
       #    finalhash[name]=detail_key.to_s
       #  end
-      end
+      #end
     end
     
   end
