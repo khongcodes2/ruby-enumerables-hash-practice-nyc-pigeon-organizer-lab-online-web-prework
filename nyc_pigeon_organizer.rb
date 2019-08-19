@@ -1,3 +1,5 @@
 def nyc_pigeon_organizer(data)
-  data
+  data.each do |attribute, |
+    
+  end
 end
